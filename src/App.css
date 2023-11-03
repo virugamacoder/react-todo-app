@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: rgb(104, 104, 104);
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: aliceblue;
+}
+
+form {
+  position: fixed;
+  bottom: 550px;
+  right: 30%;
+  left: 30%;
+  border-radius: 8px;
+  border: 2px solid rgb(66, 66, 180);
+  color: #000;
+  box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.items {
+  position: fixed;
+  width: 700px;
+  top: 140px; 
+  border-radius: 8px;
+}
+
+.todos-container{
+  Display:flex;
+  justify-content:center;
+}
+
+
+.list-group {
+  max-height: 500px; /* Adjust the max-height as needed */
+  overflow-y: auto;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.completedTodo {
+  background-color: darkgray;
+  text-decoration: line-through;
+}
+
